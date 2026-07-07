@@ -83,10 +83,13 @@ ul {
   font-size: 1.45rem;
   font-weight: 500;
   transition: color 0.3s;
+  display: inline-block;
+  transition: color 0.3s, transform 0.3s ease;
 }
 
 .nav-list a:hover {
   color: var(--green);
+  transform: translateY(-3px) scale(1.08);
 }
 
 /* BUTTONS */
@@ -202,33 +205,35 @@ ul {
 }
 
 .hero-photo {
-  width: 220px;
+  width: 320px;
   height: 220px;
   object-fit: cover;
-  right: 218px;
+  right: 220px;
   top: 0;
   border-radius: 28px;
   z-index: 2;
 }
 
 .selfie {
-  width: 400px;
-  height: 400px;
+  width: 420px;
+  height: 420px;
   object-fit: cover;
   right: 100px;
-  top: 150px;
+  top: 130px;
   border-radius: 50%;
   z-index: 4;
   object-fit: cover;
 }
 
 .code-card {
-  width: 260px;
-  top: 90px;
+  width: 300px;
+  height: 250px;
+  top: 230px;
   left: 15px;
   border-radius: 20px;
   background: #101010;
   z-index: 3;
+  object-fit: cover;
 }
 
 .botanical-card {
