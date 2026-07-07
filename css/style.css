@@ -205,11 +205,11 @@ ul {
 }
 
 .hero-photo {
-  width: 320px;
-  height: 220px;
+  width: 380px;
+  height: 260px;
   object-fit: cover;
-  right: 220px;
-  top: 0;
+  right: 260px;
+  top: 40px;
   border-radius: 28px;
   z-index: 2;
 }
@@ -226,9 +226,9 @@ ul {
 }
 
 .code-card {
-  width: 300px;
+  width: 350px;
   height: 250px;
-  top: 230px;
+  top: 320px;
   left: 15px;
   border-radius: 20px;
   background: #101010;
@@ -238,10 +238,10 @@ ul {
 
 .botanical-card {
   width: 210px;
-  height: 260px;
+  height: 320px;
   object-fit: cover;
   right: 0;
-  top: 20px;
+  top: 5px;
   border-radius: 20px;
   z-index: 1;
 }
@@ -461,6 +461,11 @@ ul {
   box-shadow: 0 16px 35px rgba(0, 0, 0, 0.05);
 }
 
+.tools-grid article img {
+  width: 35px;
+  height: 35px;
+  object-fit: contain
+}
 /* CONTACT */
 
 .contact {
