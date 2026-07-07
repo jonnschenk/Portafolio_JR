@@ -191,7 +191,7 @@ ul {
 }
 
 .hero-photo,
-.project-preview,
+.selfie,
 .botanical-card,
 .forest-card,
 .code-card,
@@ -202,46 +202,33 @@ ul {
 }
 
 .hero-photo {
-  width: 380px;
-  height: 470px;
+  width: 220px;
+  height: 220px;
   object-fit: cover;
-  right: 90px;
-  top: 60px;
+  right: 218px;
+  top: 0;
   border-radius: 28px;
   z-index: 2;
 }
 
-.project-preview {
-  width: 520px;
-  height: 300px;
+.selfie {
+  width: 400px;
+  height: 400px;
   object-fit: cover;
-  right: 20px;
-  top: 190px;
-  border-radius: 22px;
+  right: 100px;
+  top: 150px;
+  border-radius: 50%;
   z-index: 4;
+  object-fit: cover;
 }
 
 .code-card {
   width: 260px;
   top: 90px;
   left: 15px;
-  padding: 2rem;
   border-radius: 20px;
   background: #101010;
-  color: #7fd876;
-  font-family: monospace;
-  font-size: 1.25rem;
-  line-height: 1.5;
   z-index: 3;
-}
-
-.code-card::before {
-  content: "● ● ●";
-  display: block;
-  margin-bottom: 1rem;
-  color: #d15d5d;
-  letter-spacing: 0.4rem;
-  font-size: 1rem;
 }
 
 .botanical-card {
@@ -259,7 +246,7 @@ ul {
   height: 145px;
   object-fit: cover;
   right: 40px;
-  bottom: 50px;
+  bottom:15px;
   border-radius: 18px;
   z-index: 5;
 }
@@ -570,7 +557,7 @@ ul {
     top: 20px;
   }
 
-  .project-preview {
+  .selfie {
     width: 330px;
     height: 200px;
     right: 0;
