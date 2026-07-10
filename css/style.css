@@ -215,13 +215,13 @@ ul {
 }
 
 .selfie {
-  width: 420px;
-  height: 420px;
+  width: 380px;
+  height: 380px;
   object-fit: cover;
   right: 100px;
   top: 130px;
-  border-radius: 50%;
-  z-index: 4;
+  border-radius: 28px;
+  z-index: 5;
   object-fit: cover;
 }
 
@@ -253,7 +253,7 @@ ul {
   right: 40px;
   bottom:15px;
   border-radius: 18px;
-  z-index: 5;
+  z-index: 4;
 }
 
 .note-card {
