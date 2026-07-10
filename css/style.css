@@ -153,7 +153,7 @@ ul {
   border-radius: 999px;
   background: var(--white);
 
-  font-size: 1.3rem;
+  font-size: 1.8rem;
   color: var(--text);
 }
 
@@ -215,14 +215,15 @@ ul {
 }
 
 .selfie {
-  width: 380px;
-  height: 380px;
+  width: 400px;
+  height: 400px;
   object-fit: cover;
   right: 100px;
   top: 130px;
-  border-radius: 28px;
+  border-radius: 50%;
   z-index: 5;
   object-fit: cover;
+  /* border: 3px solid var(--white);  */
 }
 
 .code-card {
@@ -271,7 +272,7 @@ ul {
   line-height: 1.6;
 }
 
-.palette-card {
+ .palette-card {
   right: -20px;
   bottom: 150px;
 
@@ -305,7 +306,7 @@ ul {
 
 .palette-card span:nth-child(5) {
   background: #edeae4;
-}
+} 
 
 /* GENERAL SECTIONS */
 
